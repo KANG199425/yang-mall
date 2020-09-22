@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    哈喽
+    <main-tab-bar></main-tab-bar>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 
+import MainTabBar from 'components/content/mainTabBar//MainTabBar'
 
 export default {
   name: 'App',
   components: {
-    
+    MainTabBar
   }
 }
 </script>
